@@ -13,11 +13,25 @@ class Account_model extends CI_Model
 		if($db->num_rows()==1){
 			$data=$db->row();
 			$admin = false;
-			if ($data->email=='admin@smartid.com') $admin = true;
-			$this->setsession($data,$admin);
+			$this->setsession($data);
 			return true;
 		}else{
 			return false;
+		}
+	}
+
+
+	function setsession($data){
+		switch ($data['level']) {
+			case '1':
+				$data['level'] = 'superadmin';
+				break;
+			case '1':
+				$data['level'] = 'superadmin';
+				break;
+			default:
+				# code...
+				break;
 		}
 	}
 
