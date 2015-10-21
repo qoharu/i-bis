@@ -27,7 +27,6 @@
                                         <li><a href="#"><i class="icon-user"></i>Profil </a></li>
                                         <li><a href="#"><i class="icon-cog"></i>Pengaturan </a></li>
                                     </ul>
-                                </li>
                                 <li><a href="#"><i class="menu-icon icon-signout"></i>Logout </a></li>
                             </ul>
                         </div>
