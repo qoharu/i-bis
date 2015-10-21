@@ -4,7 +4,7 @@
                     <div class="span3">
                         <div class="sidebar">
                             <ul class="widget widget-menu unstyled">
-                                <li><a href="#"><i class="menu-icon icon-paste"></i>Input Rekam Medis
+                                <li><a href="<? echo site_url('dashboard/input') ?>"><i class="menu-icon icon-paste"></i>Input Rekam Medis
                                 </a></li>
                                 <li><a href="#"><i class="menu-icon icon-table"></i>Lihat Rekam Medis</a>
                                 </li>

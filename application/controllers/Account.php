@@ -8,7 +8,7 @@ class Account extends CI_Controller {
 	}
 
 	public function login(){
-
+		$this->load->view('login');
 	}
 
 	public function post_login(){
