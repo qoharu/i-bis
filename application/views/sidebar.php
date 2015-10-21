@@ -20,7 +20,14 @@
                             <!--/.widget-nav-->
 
                             <ul class="widget widget-menu unstyled">
-                                <li><a href="#"><i class="menu-icon icon-cog"></i>Pengaturan</a></li>
+                                <li><a class="collapsed" data-toggle="collapse" href="#togglePages"><i class="menu-icon icon-user">
+                                </i><i class="icon-chevron-down pull-right"></i><i class="icon-chevron-up pull-right">
+                                </i>Akun</a>
+                                    <ul id="togglePages" class="collapse unstyled">
+                                        <li><a href="#"><i class="icon-user"></i>Profil </a></li>
+                                        <li><a href="#"><i class="icon-cog"></i>Pengaturan </a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="#"><i class="menu-icon icon-signout"></i>Logout </a></li>
                             </ul>
                         </div>
