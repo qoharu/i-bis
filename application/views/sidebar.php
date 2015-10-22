@@ -8,7 +8,9 @@
                                 </a></li>
                                 <li><a href="<? echo site_url('dashboard/lihat') ?>"><i class="menu-icon icon-table"></i>Lihat Rekam Medis</a>
                                 </li>
-                                <li><a href="#"><i class="menu-icon icon-plus"></i>Register User</a>
+                                <li><a href="<? echo site_url('dashboard/register') ?>"><i class="menu-icon icon-plus"></i>Register User</a>
+                                </li>
+                                <li><a href="<? echo site_url('dashboard/listuser') ?>"><i class="menu-icon icon-user-md"></i>List User</a>
                                 </li>
                                 <li><a href="#"><i class="menu-icon icon-play"></i>Cek Status Pembayaran</a>
                                 </li>

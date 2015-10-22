@@ -22,4 +22,17 @@
 			$this->load->view('footer');
 		}
 
+		function register() {
+			$this->load->view('navbar');
+			$this->load->view('sidebar');
+			$this->load->view('register');
+			$this->load->view('footer');
+		}
+
+		function listuser() {
+			$this->load->view('navbar');
+			$this->load->view('sidebar');
+			$this->load->view('listuser');
+			$this->load->view('footer');
+		}
 	}

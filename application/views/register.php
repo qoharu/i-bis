@@ -3,42 +3,48 @@
                         	<div class="module">
                                 <div class="module-head">
                                     <h3>
-                                        Input Rekam Medis</h3>
+                                        Register User</h3>
                                 </div>
                                 <div class="module-body">
                                     <form class="form-horizontal row-fluid">
 
                                         <div class="control-group">
-                                            <label class="control-label" for="nomorPesertaBPJS">Nomor BPJS peserta</label>
+                                            <label class="control-label" for="username">Username</label>
                                             <div class="controls">
-                                                <input type="text" id="nomorPesertaBPJS" placeholder="Masukkan nomor BPJS peserta..." class="span8" name="nomorPesertaBPJS">
+                                                <input type="text" id="username" placeholder="Username" class="span8" name="username">
                                             </div>
                                         </div>
 
                                         <div class="control-group">
-                                            <label class="control-label" for="diagnosa">Diagnosa</label>
+                                            <label class="control-label" for="password">Password</label>
                                             <div class="controls">
-                                                <input type="text" id="diagnosa" placeholder="Masukkan kode diagnosa..." class="span8" name="diagnosa">
+                                                <input type="password" id="password" placeholder="Password" class="span8" name="password">
                                             </div>
                                         </div>
 
                                         <div class="control-group">
-                                            <label class="control-label" for="tindakan">Tindakan</label>
+                                            <label class="control-label" for="organisasi">Organisasi</label>
                                             <div class="controls">
-                                                <input type="text" id="tindakan" placeholder="Tindakan yang dilakukan" class="span8" name="tindakan">
+                                                <input type="text" id="organisasi" placeholder="Organisasi" class="span8" name="organisasi">
                                             </div>
                                         </div>
 
                                         <div class="control-group">
-                                            <label class="control-label" for="keterangan">Keterangan</label>
+                                            <label class="control-label" for="tipeUser">Tipe user</label>
                                             <div class="controls">
-                                                <textarea class="span8" rows="5" name="keterangan"></textarea>
+                                                <select tabindex="1" data-placeholder="Pilih tipe user.." class="span8" name="tipeUser">
+                                                    <option value="">Pilih tipe user..</option>
+                                                    <option value="Hiji">Hiji</option>
+                                                    <option value="Dua">Dua</option>
+                                                    <option value="Tilu">Tilu</option>
+                                                    <option value="Opat">Opat</option>
+                                                </select>
                                             </div>
                                         </div>
 
                                         <div class="control-group">
                                             <div class="controls">
-                                                <button type="submit" class="btn"><i class="icon-plus"></i>     Input Rekam Medis</button>
+                                                <button type="submit" class="btn"><i class="icon-plus"></i>     Tambah User</button>
                                             </div>
                                         </div>
 
