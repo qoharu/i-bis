@@ -38,7 +38,7 @@
 
                                         <div class="control-group">
                                             <div class="controls">
-                                                <button type="submit" class="btn"><i class="icon-plus"></i>     Input Rekam Medis</button>
+                                                <button type="submit" class="btn-success"><i class="icon-plus"></i>     Input Rekam Medis</button>
                                             </div>
                                         </div>
 
