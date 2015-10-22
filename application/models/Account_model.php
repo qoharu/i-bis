@@ -26,11 +26,11 @@ class Account_model extends CI_Model
 			case '1':
 				$data['level'] = 'superadmin';
 				break;
-			case '1':
-				$data['level'] = 'superadmin';
+			case '2':
+				$data['level'] = 'adminfaskes';
 				break;
-			default:
-				# code...
+			case '3':
+				$data['level'] = 'adminbpjs';
 				break;
 		}
 	}
